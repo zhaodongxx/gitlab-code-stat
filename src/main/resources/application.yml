@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: gitlab-code-stat
+server:
+  port: 8080
+gitlab:
+  host: http://git.xxx.com
+  token: xxx
+logging:
+  level:
+    root: INFO
